@@ -1,0 +1,7 @@
+scripts:
+  start:
+    cmd: "deno run app.ts"
+    desc: "run my app.ts file"
+    allow: ["env", "net", "read", "write", "plugin"]
+watcher:
+  skip: ["*/.git/*"]
